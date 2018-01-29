@@ -1,0 +1,48 @@
+#main {
+  padding-top: 50px;
+}
+
+#title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#subtitle {
+  margin-top: 0;
+}
+
+#profile-img-container {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#profile-img {
+  border-radius: 50%;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+.nav-active {
+  background-color: black;
+  color: white;
+}
+
+.font-white {
+  color: white;
+}
+
+.font-gray {
+  color: gray;
+}
