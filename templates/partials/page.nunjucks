@@ -1,0 +1,6 @@
+{% extends "./base.nunjucks" %}
+{% block content %}
+  <h2>{{ page_title }}</h2>
+  {% block copy %}
+  {% endblock %}
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "partials/page.nunjucks" %}
+{% set title = 'Projects' %}
+{% set page_title = 'Projects' %}
+{% block copy %}
+  <p>
+     In my ten years as a Survey Analyst at Mathematica Policy Research I have delivered high quality and rigorous studies for federal agencies, state agencies, private foundations, and non-profit organizations. My recent projects include:
+  </p>
+  <ul>
+    <li>
+      Survey director of the evaluation of the Colorado Health Foundations Team Based Care Initiative
+    </li>
+    <li>
+      Lead analyst on the qualitative investigation of the barriers to physical activity in Colorado youth
+    </li>
+    <li>
+      Data collection lead for the evaluation of USAID’s Student Dropout Prevention Pilot Program in Cambodia and Timor-Leste
+    </li>
+  </ul>
+{% endblock %}

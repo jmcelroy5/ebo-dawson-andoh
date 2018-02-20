@@ -1,0 +1,8 @@
+{% extends "partials/page.nunjucks" %}
+{% set title = 'Education' %}
+{% set page_title = 'Education' %}
+{% block copy %}
+  <p>
+    I earned a B.S. in Education &amp; Social Policy from Northwestern University, and I am currently finishing up an M.S. in Kinesiology at California State University, East Bay.
+  </p>
+{% endblock %}

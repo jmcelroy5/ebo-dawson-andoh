@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "title" : "About",
+      "path": "index.html"
+    },
+    {
+      "title" : "Education",
+      "path": "education.html"
+    },
+    {
+      "title": "Projects",
+      "path" : "projects.html"
+    },
+    {
+      "title": "Publications",
+      "path": "publications.html"
+    },
+    {
+      "title" : "Volunteering",
+      "path": "volunteering.html"
+    },
+    {
+      "title": "Curriculum Vitae",
+      "path": ""
+    },
+    {
+      "title": "Resume",
+      "path": "assets/files/Ebo Dawson-Andoh_Resume.pdf"
+    }
+  ]
+}

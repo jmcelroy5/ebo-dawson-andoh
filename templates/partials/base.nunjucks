@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>{{ title }}</title>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/simple-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/fontfaces.css" charset="utf-8" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico">
+  </head>
+  <body>
+    <div id="main" class="container">
+      {% block content %}
+      {% endblock %}
+    </div>
+    <div class="row">
+      <nav>
+        <ul id="nav-list">
+          {% for route in routes %}
+            <li class="center">
+              <a class="{% if route.title == title %}nav-active{% endif %}" href="{{route.path}}">
+                {{ route.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </body>
+  <footer class="center col-8">
+    <hr />
+    <span class="font-light-gray">
+      © 2017 Ebo Dawson-Andoh <a class="font-light-gray" href="http://creativecommons.org/licenses/by/3.0/">Some rights reserved</a>
+    </span>
+  </footer>
+</html>

@@ -1,0 +1,8 @@
+{% extends "partials/page.nunjucks" %}
+{% set title = 'Volunteering' %}
+{% set page_title = 'Volunteering' %}
+{% block copy %}
+  <p>
+    In my spare time I'm active in the Oakland community. For a few years I was a volunteer coach for a cross-country program at MetWest High School, and currently I'm volunteering as a mentor for <a href="https://www.rboakland.org/">Running for a Better Oakland</a>. I'm also involved with <a href="http://brothersontherise.org/">Brothers on the Rise</a>, mentoring Black and Latino youth.
+  </p>
+{% endblock %}
