@@ -25,24 +25,37 @@ nav li {
 }
 
 nav li a {
-  font-weight: bold;
+  font-family: 'Roboto Slab Regular';
   text-decoration: none;
-  padding: 6px;
+  padding: 5px 60px;
 }
 
 nav ul {
   padding: 0;
 }
 
+nav {
+  margin-top: 50px;
+}
+
 .nav-active {
+  color: white;
   background-color: black;
-  color: white;
+  padding: 5px 20px;
 }
 
-.font-white {
-  color: white;
+#social-links a {
+  text-decoration: none;
 }
 
-.font-gray {
-  color: gray;
+hr {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
 }
+
+footer {
+  padding-bottom: 20px;
+}
+

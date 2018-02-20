@@ -28,8 +28,20 @@ body {
 
 /* TYPOGRAPHY */
 
+h1, h2, h3, h4 {
+  font-family: 'Roboto Slab Regular';
+}
+
+p, ul, li {
+  font-family: 'Roboto Slab Thin';
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -52,10 +64,8 @@ h6 {
   font-size: 0.875rem;
 }
 
-p, ul, li {
-  font-size: 1.125rem;
-  font-weight: 200;
-  line-height: 1.8;
+footer {
+  font-size: 0.8rem;
 }
 
 .font-light {
@@ -68,6 +78,18 @@ p, ul, li {
 
 .font-heavy {
   font-weight: 700;
+}
+
+.font-white {
+  color: white;
+}
+
+.font-gray {
+  color: gray;
+}
+
+.font-light-gray {
+  color: #bbb;
 }
 
 /* POSITIONING */
